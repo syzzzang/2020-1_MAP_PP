@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalFragment">
+
+
+    <TextView
+        android:fontFamily="@font/neodgm"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical"
+        android:text="안녕하세요!\n\n당신의 7일을 기록하세여!\n\n우측 하단에 있는 +버튼으로\n\n할 일을 추가할 수 있습니다.\n\n다 끝난 일은 체크하세여!\n\n할 일 우측 하단의 연한 버튼으로\n\n아예 삭제할 수 있습니다!!\n\n추가와 삭제는 오래 걸립니다,,,\n\n기다려주세여,,,\n\n할 일 누르먼 트위터 연동!"
+        ></TextView>
+
+</FrameLayout>

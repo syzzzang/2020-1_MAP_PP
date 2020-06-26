@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">syzz</string>
+    <string name="kakao_app_key">359cb022da7dad930bea40258d1a618a</string>
+    <string name="kakao_scheme">kakao+359cb022da7dad930bea40258d1a618a</string>
+    <string name="kakaolink_host">kakaolink</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+<!--android:background="@drawable/login_background"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/neodgm"
+            android:text="하마터면\n열심히\n살뻔했다"
+            android:textColor="@android:color/black"
+            android:textSize="60sp" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/neodgm"
+            android:text="아이디"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+
+            android:ems="10"
+            android:hint=""
+            android:inputType="text"
+
+            app:backgroundTint="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/neodgm"
+            android:text="비밀번호"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:ems="10"
+
+            android:inputType="textPassword"
+            app:backgroundTint="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/userid"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/neodgm"
+                android:paddingTop="5dp"
+                android:text="로그인"
+                android:textColor="@android:color/black"
+
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/neodgm"
+                android:paddingTop="5dp"
+                android:text="회원가입"
+                android:textColor="@android:color/black"
+
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+            <com.kakao.usermgmt.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="240dp"
+                android:fontFamily="@font/neodgm"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="회원가입"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
